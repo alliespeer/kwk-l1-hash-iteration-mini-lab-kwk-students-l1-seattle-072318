@@ -1,10 +1,21 @@
 
 def create_olympics_hash
-   summer_olumpics_hash = {:Sydney=> "2000",:Athens=> "2004",:Beijing "2008",:london "2012"}
-   year += 1
-   summer_olumpics_hash. do |place,year|
-     
+  olympic_places_array = ["Sydney","Athens","Beijing", "London"]
+  
+  olympic_years_array = ["2000","2004",'2008',"2012"]
+  olumpic_hash = {}
+  places_year = 0
+  
+  olympic_places_array.each do |places|
+    olympic_hash[places] = olympic_years_array[years]
+    places_year += 1 
+    
+    
    end
+   return olympic_hash
+   puts olympic_hash
+ end
+ puts create_olympics_hash
  
 
 def add_a_key_value_pair
